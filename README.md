@@ -2,23 +2,23 @@
 
 The repository consists of projects made by me (or in collaboration with someone mentioned in project). The code is exclusively written by me (with one exeption that is also mentioned). The repository holds only a few of my many projects and it serves a purpose of presenting my skills in fields of programming and mathematics. At the moment, there are 11 projects present, which contain my bachelor thesis and codes in Python, R, SQL (more details below).
 
-## **Python**
+### **Python**
 * [Motif finding in DNA sequences](https://github.com/Homeomorphistic/University-projects/tree/master/Motif%20fiding%20in%20DNA%20sequences%20(EM%20algorithm)),
 * [Pseudorandom number generators](https://github.com/Homeomorphistic/University-projects/tree/master/Pseudorandom%20number%20generators),
 * [Recommender system](https://github.com/Homeomorphistic/University-projects/tree/master/Recommender%20system%20(PCA%20and%20SVD)),
-* [AB testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
+* [A/B testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
 
-## **R**
+### **R**
 * [Monte Carlo methods and simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Monte%20Carlo%20methods%20and%20simulations),
 * [Statistical simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20simulations),
 * [Valuation of portfolios](https://github.com/Homeomorphistic/University-projects/tree/master/Valuation%20of%20portfolios%20(random%20forests)),
 
-## **SQL**
+### **SQL**
 * [Ski jumping database](https://github.com/Homeomorphistic/University-projects/tree/master/Ski%20jumping%20database),
 * [Major league soccer database](https://github.com/Homeomorphistic/University-projects/tree/master/Major%20league%20soccer%20database),
 
 ## **Theses**
-* [Statistical analysis of codon frequency in genetic code]((https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20analysis%20of%20codon%20frequency%20in%20genetic%20code))
+* [Statistical analysis of codon frequency in genetic code](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20analysis%20of%20codon%20frequency%20in%20genetic%20code)
 
 ## **Other**
 * [Old C++ game](https://github.com/Homeomorphistic/University-projects/tree/master/Old%20cpp%20game),
@@ -35,7 +35,9 @@ Randomness cannot be created on deterministic machines like computers. So, can w
 
 Recommender system is a subclass of information filtering systems that seek to predict the "rating" or "preference" of a user. This project is based on ratings of movies. Given their past, how will their future ratings look? Answers to this question are provided by testing _**non-negative matrix factorization (NMF)**_ and _**singural-value decomposition (SVD)**_.
 
-## **AB testing [Python/Numpy/Pandas]**
+## **A/B testing [Python/Numpy/Pandas]**
+
+A/B testing is a user experience reseach methodology. Given 2 ways of presenting data, which one is better? _**Statistical hypothesis testing**_ is a helpful tool in a problem of different hints that are shown to browser users.
 
 ## **Monte Carlo methods and simulations [R]**
 

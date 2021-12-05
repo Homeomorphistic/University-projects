@@ -7,7 +7,7 @@ The repository consists of projects made by me (or in collaboration with someone
 * [Pseudorandom number generators](https://github.com/Homeomorphistic/University-projects/tree/master/Pseudorandom%20number%20generators),
 * [Recommender system](https://github.com/Homeomorphistic/University-projects/tree/master/Recommender%20system%20(PCA%20and%20SVD)),
 * [A/B testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
-* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling).
+* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling%20(SEIR%20model)).
 
 ### **R**
 * [Monte Carlo methods and simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Monte%20Carlo%20methods%20and%20simulations),

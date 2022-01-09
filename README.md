@@ -45,7 +45,7 @@ In 2019 coronavirus has given rise to global pandemic. Now the disease is a worl
 
 ## **Heat equation [Python]**
 
-The heat equation is one of many partial differential equations, yet it is one of the most studied among physicists and mathematicians. It is important in many fields of applied mathematics including probability theory and finacial mathematics. This project focuses on solving this equation on a rod (1 dimension) and a plate (2 dimensions) and presenting those solutions in 3D animations.
+The heat equation is one of many _**partial differential equations**_, yet it is one of the most studied among physicists and mathematicians. It is important in many fields of applied mathematics including probability theory and finacial mathematics. This project focuses on solving this equation on a _**rod (1 dimension)**_ and a _**plate (2 dimensions)**_ and presenting those solutions in _**3D animations**_.
 
 ## **Monte Carlo methods and simulations [R]**
 
@@ -61,7 +61,7 @@ Porfolio evaluation is establishing the value of each asset owned by the investm
 
 ## **Bootstrapping [R]**
 
-Bootstrapping is method of resampling the data to estimate the properties of estimator. It is helpful when the distribution of statistic is not known. It can be used in a variety of statistical methods: hypothesis testing, statistical modeling, computing confidence intervals. This series of projects uses publicly available data about car crashes and wages to test out bootstrap methods.
+Bootstrapping is method of resampling the data to _**estimate the properties of estimator**_. It is helpful when the distribution of statistic is not known. It can be used in a variety of statistical methods: hypothesis testing, statistical modeling, _**computing confidence intervals**_. This series of projects uses publicly available data about car crashes and wages to test out _**bootstrap methods**_.
 
 ## **Ski jumping database [PostgreSQL]**
 

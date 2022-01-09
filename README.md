@@ -7,12 +7,14 @@ The repository consists of projects made by me (or in collaboration with someone
 * [Pseudorandom number generators](https://github.com/Homeomorphistic/University-projects/tree/master/Pseudorandom%20number%20generators),
 * [Recommender system](https://github.com/Homeomorphistic/University-projects/tree/master/Recommender%20system%20(PCA%20and%20SVD)),
 * [A/B testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
-* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling%20(SEIR%20model)).
+* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling%20(SEIR%20model)),
+* [Heat equation](https://github.com/Homeomorphistic/University-projects/tree/master/Diffusion%20equation%20(heat%20modeling)).
 
 ### **R**
 * [Monte Carlo methods and simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Monte%20Carlo%20methods%20and%20simulations),
 * [Statistical simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20simulations),
 * [Valuation of portfolios](https://github.com/Homeomorphistic/University-projects/tree/master/Valuation%20of%20portfolios%20(random%20forests)),
+* [Bootstrapping](https://github.com/Homeomorphistic/University-projects/tree/master/Resampling%20methods%20(bootstrap)).
 
 ### **SQL**
 * [Ski jumping database](https://github.com/Homeomorphistic/University-projects/tree/master/Ski%20jumping%20database),
@@ -20,9 +22,6 @@ The repository consists of projects made by me (or in collaboration with someone
 
 ### **Theses**
 * [Statistical analysis of codon frequency in genetic code](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20analysis%20of%20codon%20frequency%20in%20genetic%20code).
-
-### **Other**
-* [Old C++ game](https://github.com/Homeomorphistic/University-projects/tree/master/Old%20cpp%20game).
 
 ## **Motif finding in DNA sequences [Python/Numpy]**
 
@@ -44,6 +43,10 @@ A/B testing is a user experience reseach methodology. Given 2 ways of presenting
 
 In 2019 coronavirus has given rise to global pandemic. Now the disease is a worldwide problem, so governments and scientists are looking for solutions to stop the pandemic. One tool for understanding the problem are _**deterministic models**_ that use _**differential equations**_. The model employed to predict the pandemic outbreak is an _**infectious disease dynamics model (SEIR model)**_.
 
+## ** Heat equation [Python]**
+
+The heat equation is one of many partial differential equations, yet it is one of the most studied among physicists and mathematicians. It is important in many fields of applied mathematics including probability theory and finacial mathematics. This project focuses on solving this equation on a rod (1 dimension) and a plate (2 dimensions) and presenting those solutions in 3D animations.
+
 ## **Monte Carlo methods and simulations [R]**
 
 This project is about simulating stochastic processes and using basic Monte Carlo methods to answer real problems of assembly line production. The projects shows strength of using simulations, instead of long-term gathering of data. The fundamental _**Crude Monte Carlo estimator (CMC)**_ is used extensively to answer questions about minimizing the cost of downtime of machines or the length of a queue in asembly line.
@@ -55,6 +58,10 @@ This project is more of a series of labs, that are testing many statistical mode
 ## **Valuation of portfolios [R]**
 
 Porfolio evaluation is establishing the value of each asset owned by the investment fund or entity. In case of this project the payment of liabilities was evaluated. It was done by constructing _**binary trees, pruned trees**_ and finaly _**random forrests**_. The project included practical side of statistics: _**imputation of missing data**_, rating models with _**Gini index**_ or _**logloss**_ and inferring on various plots like _**partial plot**_.
+
+## ** Bootstrapping [R]**
+
+Bootstrapping is method of resampling the data to estimate the properties of estimator. It is helpful when the distribution of statistic is not known. It can be used in a variety of statistical methods: hypothesis testing, statistical modeling, computing confidence intervals. This series of projects uses publicly available data about car crashes and wages to test out bootstrap methods.
 
 ## **Ski jumping database [PostgreSQL]**
 
@@ -68,10 +75,6 @@ The data on ski jumping competitions provided by FIS proves to be really inacces
 
 The genome is a medium of information in living organisms, the whole growth process and functionality of an organism depends on it. It is build by a triplets of nucleotides, called a _codons_. Are those randomly distributed in a genome? Are there any relations between them? Are we able to use classic statistical methods such as _**Chi squared test**_ or _**Maximum likelihood estimators**_ in a problem with tens of thousands of observations? My bachelor thesis seeks to answer those questions and analyze the tools used in those problems.
 
-
-##  **Old C++ game [C++]**
-
-This project is just a basic point-and-click game, that presents my skills in object oriented programming.
 
 
 

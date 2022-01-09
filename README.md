@@ -43,7 +43,7 @@ A/B testing is a user experience reseach methodology. Given 2 ways of presenting
 
 In 2019 coronavirus has given rise to global pandemic. Now the disease is a worldwide problem, so governments and scientists are looking for solutions to stop the pandemic. One tool for understanding the problem are _**deterministic models**_ that use _**differential equations**_. The model employed to predict the pandemic outbreak is an _**infectious disease dynamics model (SEIR model)**_.
 
-## ** Heat equation [Python]**
+## **Heat equation [Python]**
 
 The heat equation is one of many partial differential equations, yet it is one of the most studied among physicists and mathematicians. It is important in many fields of applied mathematics including probability theory and finacial mathematics. This project focuses on solving this equation on a rod (1 dimension) and a plate (2 dimensions) and presenting those solutions in 3D animations.
 
@@ -59,7 +59,7 @@ This project is more of a series of labs, that are testing many statistical mode
 
 Porfolio evaluation is establishing the value of each asset owned by the investment fund or entity. In case of this project the payment of liabilities was evaluated. It was done by constructing _**binary trees, pruned trees**_ and finaly _**random forrests**_. The project included practical side of statistics: _**imputation of missing data**_, rating models with _**Gini index**_ or _**logloss**_ and inferring on various plots like _**partial plot**_.
 
-## ** Bootstrapping [R]**
+## **Bootstrapping [R]**
 
 Bootstrapping is method of resampling the data to estimate the properties of estimator. It is helpful when the distribution of statistic is not known. It can be used in a variety of statistical methods: hypothesis testing, statistical modeling, computing confidence intervals. This series of projects uses publicly available data about car crashes and wages to test out bootstrap methods.
 

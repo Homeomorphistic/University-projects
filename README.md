@@ -1,6 +1,6 @@
 # **University Projects**
 
-The repository consists of projects made by me (or in collaboration with someone mentioned in project). The code is exclusively written by me (with one exeption that is also mentioned). The repository holds only a few of my many projects and it serves a purpose of presenting my skills in fields of programming and mathematics. At the moment, there are 12 projects present, which contain my bachelor thesis and codes in Python, R, SQL (more details below).
+The repository consists of projects made by me (or in collaboration with someone mentioned in project). The code is exclusively written by me (with one exeption that is also mentioned). The repository holds only a few of my many projects and it serves a purpose of presenting my skills in fields of programming and mathematics. At the moment, the projects contain my bachelor thesis and codes in Python, R, SQL (more details below).
 
 ### **Probability**
 * [Motif finding in DNA sequences](https://github.com/Homeomorphistic/University-projects/tree/master/Motif%20fiding%20in%20DNA%20sequences%20(EM%20algorithm)),

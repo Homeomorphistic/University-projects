@@ -2,26 +2,32 @@
 
 The repository consists of projects made by me (or in collaboration with someone mentioned in project). The code is exclusively written by me (with one exeption that is also mentioned). The repository holds only a few of my many projects and it serves a purpose of presenting my skills in fields of programming and mathematics. At the moment, there are 12 projects present, which contain my bachelor thesis and codes in Python, R, SQL (more details below).
 
-### **Python**
+### **Probability**
 * [Motif finding in DNA sequences](https://github.com/Homeomorphistic/University-projects/tree/master/Motif%20fiding%20in%20DNA%20sequences%20(EM%20algorithm)),
 * [Pseudorandom number generators](https://github.com/Homeomorphistic/University-projects/tree/master/Pseudorandom%20number%20generators),
 * [Recommender system](https://github.com/Homeomorphistic/University-projects/tree/master/Recommender%20system%20(PCA%20and%20SVD)),
-* [A/B testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
-* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling%20(SEIR%20model)),
-* [Heat equation](https://github.com/Homeomorphistic/University-projects/tree/master/Diffusion%20equation%20(heat%20modeling)).
+* [Monte Carlo methods and simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Monte%20Carlo%20methods%20and%20simulations).
 
-### **R**
-* [Monte Carlo methods and simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Monte%20Carlo%20methods%20and%20simulations),
+### **Deterministic models**
+* [Epidemic modeling](https://github.com/Homeomorphistic/University-projects/tree/master/Epidemic%20modeling%20(SEIR%20model)),
+* [Heat equation](https://github.com/Homeomorphistic/University-projects/tree/master/Diffusion%20equation%20(heat%20modeling)),
+* [Spiral waves](https://github.com/Homeomorphistic/University-projects/tree/master/Reaction-diffusion%20equations%20(Turing%20instability)).
+
+### **Statistics**
+* [A/B testing](https://github.com/Homeomorphistic/University-projects/tree/master/AB%20testing),
 * [Statistical simulations](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20simulations),
 * [Valuation of portfolios](https://github.com/Homeomorphistic/University-projects/tree/master/Valuation%20of%20portfolios%20(random%20forests)),
 * [Bootstrapping](https://github.com/Homeomorphistic/University-projects/tree/master/Resampling%20methods%20(bootstrap)).
 
-### **SQL**
+### **Databases**
 * [Ski jumping database](https://github.com/Homeomorphistic/University-projects/tree/master/Ski%20jumping%20database),
 * [Major league soccer database](https://github.com/Homeomorphistic/University-projects/tree/master/Major%20league%20soccer%20database).
 
 ### **Theses**
 * [Statistical analysis of codon frequency in genetic code](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20analysis%20of%20codon%20frequency%20in%20genetic%20code).
+
+
+# **Probability**
 
 ## **Motif finding in DNA sequences [Python/Numpy]**
 
@@ -35,9 +41,12 @@ Randomness cannot be created on deterministic machines like computers. So, can w
 
 Recommender system is a subclass of information filtering systems that seek to predict the "rating" or "preference" of a user. This project is based on ratings of movies. Given their past, how will their future ratings look? Answers to this question are provided by testing _**non-negative matrix factorization (NMF)**_ and _**singural-value decomposition (SVD)**_.
 
-## **A/B testing [Python/Numpy/Pandas]**
+## **Monte Carlo methods and simulations [R]**
 
-A/B testing is a user experience reseach methodology. Given 2 ways of presenting data, which one is better? _**Statistical hypothesis testing**_ is a helpful tool in a problem of different hints that are shown to browser users.
+This project is about simulating stochastic processes and using basic Monte Carlo methods to answer real problems of assembly line production. The projects shows strength of using simulations, instead of long-term gathering of data. The fundamental _**Crude Monte Carlo estimator (CMC)**_ is used extensively to answer questions about minimizing the cost of downtime of machines or the length of a queue in asembly line.
+
+
+# **Deterministic models**
 
 ## **Epidemic modeling [Python]**
 
@@ -47,9 +56,16 @@ In 2019 coronavirus has given rise to global pandemic. Now the disease is a worl
 
 The heat equation is one of many _**partial differential equations**_, yet it is one of the most studied among physicists and mathematicians. It is important in many fields of applied mathematics including probability theory and finacial mathematics. This project focuses on solving this equation on a _**rod (1 dimension)**_ and a _**plate (2 dimensions)**_ and presenting those solutions in _**3D animations**_.
 
-## **Monte Carlo methods and simulations [R]**
+## **Spiral waves [Python]**
 
-This project is about simulating stochastic processes and using basic Monte Carlo methods to answer real problems of assembly line production. The projects shows strength of using simulations, instead of long-term gathering of data. The fundamental _**Crude Monte Carlo estimator (CMC)**_ is used extensively to answer questions about minimizing the cost of downtime of machines or the length of a queue in asembly line.
+The _**reaction-diffusion systems**_ are mathematical models used in many scientific fields (chemistry, physics, biology etc.) to model real world phenomena using _**partial differential equations**_ with _**diffusion**_ (heat). This project examines special case of _**FitzHugh-Nagumo model**_, which is used to model electricity in neurons and tries to introduce instabilities (including _**Turing instability**_) to the system that will create special patterns like _**spiral waves**_.
+
+
+# **Statistics**
+
+## **A/B testing [Python/Numpy/Pandas]**
+
+A/B testing is a user experience reseach methodology. Given 2 ways of presenting data, which one is better? _**Statistical hypothesis testing**_ is a helpful tool in a problem of different hints that are shown to browser users.
 
 ## **Statistical simulations [R]**
 
@@ -63,6 +79,9 @@ Porfolio evaluation is establishing the value of each asset owned by the investm
 
 Bootstrapping is method of resampling the data to _**estimate the properties of estimator**_. It is helpful when the distribution of statistic is not known. It can be used in a variety of statistical methods: hypothesis testing, statistical modeling, _**computing confidence intervals**_. This series of projects uses publicly available data about car crashes and wages to test out _**bootstrap methods**_.
 
+
+# **Databases**
+
 ## **Ski jumping database [PostgreSQL]**
 
 The data on ski jumping competitions provided by FIS proves to be really inaccessible and needs to be reorganized. The aim of this project is to construct basic database to clear up the data and test some database functionalities (_**views, functions, triggers**_).
@@ -70,6 +89,9 @@ The data on ski jumping competitions provided by FIS proves to be really inacces
 ## **Major league soccer database [MySQL]**
 
 Major league soccer (MLS) is the highest football league in USA. This database was intended to help with gathering and processing the information, while working on a project with other scientists. It includes the extraction of the data from spreadsheets, reforming them into proper RDB, correcting errors and creating special saves for other users.
+
+
+# **Theses**
 
 ## **Statistical analysis of codon frequency in genetic code [R]**
 

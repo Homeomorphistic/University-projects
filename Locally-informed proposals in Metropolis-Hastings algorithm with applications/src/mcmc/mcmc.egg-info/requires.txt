@@ -1,0 +1,4 @@
+nptyping
+numpy
+scipy
+tsplib95

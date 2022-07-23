@@ -25,6 +25,7 @@ The repository consists of projects made by me (or in collaboration with someone
 
 ### **Theses**
 * [Statistical analysis of codon frequency in genetic code](https://github.com/Homeomorphistic/University-projects/tree/master/Statistical%20analysis%20of%20codon%20frequency%20in%20genetic%20code).
+* [Locally-informed proposals in Metropolis-Hastings algorithm with applications](https://github.com/Homeomorphistic/University-projects/tree/master/Locally-informed%20proposals%20in%20Metropolis-Hastings%20algorithm%20with%20applications)
 
 
 # **Probability**
@@ -98,7 +99,9 @@ Major league soccer (MLS) is the highest football league in USA. This database w
 The genome is a medium of information in living organisms, the whole growth process and functionality of an organism depends on it. It is build by a triplets of nucleotides, called a _codons_. Are those randomly distributed in a genome? Are there any relations between them? Are we able to use classic statistical methods such as _**Chi squared test**_ or _**Maximum likelihood estimators**_ in a problem with tens of thousands of observations? My bachelor thesis seeks to answer those questions and analyze the tools used in those problems.
 
 
+## **Locally-informed proposals in Metropolis-Hastings algorithm with applications [Python]**
 
+The Markov Chain Monte Carlo methods (MCMC) are a family of algorithms used for approximating sampling from a given probability distribution. They prove very effective when the state space is large. This fact can be used to solve many hard deterministic problems -- one of them being _**traveling salesmen problem**_. It will be used in this thesis to test a new approach of _**locally-informed proposals**_ as a modification of well known _**Metropolis-Hastings algorithm**_.
 
 
 

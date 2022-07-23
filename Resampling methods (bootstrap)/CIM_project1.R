@@ -9,6 +9,8 @@ attach(na.omit(nassCDS))
 #Converting factor to logical
 levels(dead) = c(FALSE,TRUE)
 dead = as.logical(dead)
+levels(airbag) = c(FALSE,TRUE)
+airbag = as.logical(airbag)
 
 ###########################################################################
 #########################BOOTSTRAP#########################################
@@ -84,10 +86,12 @@ abline(v = quantile(X_10_hat, c(0.025, 0.975)), col="red", lwd=2)
 save(X_10_hat, file="CIM_project1_1_2_X_10.RData")
 
 #Q1.3
+#Fit the null model
+fit_binom_0 = glm(dead~1, family = "binomial")
 #Resampling under null hypothesis: beta_1 = 0 (fixing ageOFocc, sampling from dead)
 sigmoid = function(x) exp(x) / (1 + exp(x))
 #Sampling from binomial distribution with pi_j
-rdist = function(n) rbinom(n=n, size=1, prob = sigmoid(fit_binom$coefficients[1]))
+rdist = function(n) rbinom(n=n, size=1, prob = sigmoid(fit_binom_0$coefficients))
 #Estimator of betas
 beta_est = function(data)glm(data[,1]~data[,2], family = "binomial")$coefficients
 #bootstrap algorithm
